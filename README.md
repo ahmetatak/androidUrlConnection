@@ -12,7 +12,7 @@ These class will help you to connect an url (request-response) in android. it re
 #### YourActivity
 
 import HttpAsyncTask.java class to your project.
-open your activity forexample; if you are going to use it in your onCreate method;
+open your activity forexample; if you are going to use it in your onCreate() method;
 ```
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,7 +24,7 @@ open your activity forexample; if you are going to use it in your onCreate metho
                 post.put("password","ca22ff0def0e2e0a320e351fc3060998");
                 String url ="http://mywebsite.com/login.php";//your url
 
-                String data = task.start(getApplicationContext(),post,url);
-                Toast.makeText(getApplicationContext(), "return :"+data,Toast.LENGTH_SHORT).show();
+                String data = task.start(getApplicationContext(),post,url);//it will return the result! now we can use it!
+                Toast.makeText(getApplicationContext(), "return :"+data,Toast.LENGTH_SHORT).show();// display the result !
         }
 ```
