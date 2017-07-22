@@ -8,7 +8,7 @@ Connect to url and send post via HttpAsyncTask.java  in android !
 
 ## Getting Started
 
-These class will help you to connect an url (request-response) in android. it returns the data in string format;
+the class will help you to connect an url (request-response) in android. it returns the data in string format.
 #### YourActivity
 
 import HttpAsyncTask.java class to your project.
