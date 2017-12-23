@@ -1,6 +1,6 @@
 
 # HttpAsyncTask
-
+Android URL Connection helps you to send and get data to an url in android
 Connect to url and send post via HttpAsyncTask.java  in android !
 
 
